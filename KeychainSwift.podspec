@@ -11,7 +11,9 @@ Pod::Spec.new do |s|
                 * Specify optional access rule for the keychain item.
                 * Limit operations to a specific access group.
                 DESC
-  s.source      = { :git => "https://github.com/AnnaPomazanovaDex/keychain-swift-static", :branch => 'Convert-to-static'}
+  s.authors     = { "Evgenii Neumerzhitckii" => "sausageskin@gmail.com" }
+ s.source      = { :git => "https://github.com/AnnaPomazanovaDex/keychain-swift-static", :branch => 'Convert-to-static'}
+  s.source      = { :git => "https://github.com/evgenyneu/keychain-swift.git", :tag => s.version }
   s.source_files = "Sources/*.swift"
   s.static_framework = true
   s.resource_bundles = {"KeychainSwift" => ["Sources/PrivacyInfo.xcprivacy"]}
