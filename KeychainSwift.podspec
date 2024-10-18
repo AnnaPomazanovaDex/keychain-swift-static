@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name        = "KeychainSwift with Static Linking"
+  s.name        = "KeychainSwift"
   s.version     = "25.0.0"
   s.license     = { :type => "MIT" }
   s.homepage    = "https://github.com/evgenyneu/keychain-swift"
